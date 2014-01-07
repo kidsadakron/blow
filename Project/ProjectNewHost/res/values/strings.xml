@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blow</string>
+    <string name="action_contact">Contact</string>
+
+    <string-array name="textManager">
+        <item>รายการสินค้า</item>
+        <item>ที่อยู่ของสินค้า</item>
+    </string-array>
+    <string-array name="textTitleS">
+        <item>รายการสินค้า</item>
+        <item>หน้าหลัก</item>
+        <item>จัดการสินค้า</item>
+        <item>รถเข็น</item>
+    </string-array>
+    <string-array name="listMenu">
+        <item>all</item>
+        <item>เครื่องสำอาง และความงาม</item>
+        <item>นาฬิกา</item>
+        <item>เสื้อผ้าและแฟชั่น</item>
+        <item>คอมพิวเตอร์ และ ไอที</item>
+        <item>โทรศัพท์มือถือ</item>
+        <item>กล้อง และอุปกรณ์</item>
+        <item>อิเล็กทรอนิกส์</item>
+        <item>Stationery</item>
+        <item>วีดีโอเกม</item>
+        <item>VCD DVD เพลง ภาพยนตร์ </item>
+        <item>เครื่องใช้ไฟฟ้า</item>
+        <item>สินค้าอุปโภค บริโภค</item>
+        <item>แม่และเด็ก</item>
+        <item>อาหารและสุขภาพ</item>
+        <item>บ้านและสวน</item>
+        <item>หนังสือ</item>
+        <item>อื่นๆ</item>
+    </string-array>
+
+</resources>

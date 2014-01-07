@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <NumberPicker
+            android:id="@+id/pDetailPerson"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:width="100dip" />
+
+        <EditText
+            android:id="@+id/edFName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="ชื่อ"
+            android:singleLine="true"
+            android:textSize="@dimen/list_manu_size" >
+
+            <requestFocus />
+
+            <requestFocus />
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/edLName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="นามสกุล"
+            android:singleLine="true"
+            android:textSize="@dimen/list_manu_size" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/okDetailPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/register" >
+
+        <TextView
+            android:id="@+id/tvMainJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:text="ถัดไป"
+            android:textSize="@dimen/list_topic_size" />
+
+    </FrameLayout>
+
+</LinearLayout>

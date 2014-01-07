@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/lvWagonItem"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="@color/white" >
+
+        <ImageView
+            android:id="@+id/ivWagonImage"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:src="@drawable/managetimagew" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvWagonName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ชื่อสินค้า"
+                android:textSize="@dimen/list_manu_size" />
+
+            <TextView
+                android:id="@+id/tvWagonType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ประเภท"
+                android:textSize="@dimen/list_manu_size" />
+
+            <TextView
+                android:id="@+id/tvWagonNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="จำนวน"
+                android:textSize="@dimen/list_manu_size" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/btEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:text="แก้ไข"
+                android:textSize="@dimen/list_manu_size" />
+
+            <TextView
+               android:id="@+id/tvWagonPice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/btEdit"
+                android:layout_marginTop="10dp"
+                android:text="TextView"
+                android:textSize="@dimen/list_manu_size" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

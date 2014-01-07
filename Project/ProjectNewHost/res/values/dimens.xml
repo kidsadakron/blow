@@ -1,0 +1,14 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="list_manu_size">10sp</dimen>
+    <dimen name="list_topic_size">14sp</dimen>
+    <dimen name="list_manu_margin">5dp</dimen>
+    <dimen name="serach_text">10sp</dimen>
+    <dimen name="bar">36dp</dimen>
+    <dimen name="bar_text">16px</dimen>
+ <dimen name="register_detail">15sp</dimen>
+ 
+ <dimen name="register_top">27sp</dimen>
+  <dimen name="register_topBig">32sp</dimen>
+</resources>

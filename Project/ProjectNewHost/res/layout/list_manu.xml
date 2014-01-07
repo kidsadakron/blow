@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/layoutListManu"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <RelativeLayout
+                android:id="@+id/reLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gg" >
+
+                <EditText
+                    android:id="@+id/search"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_toLeftOf="@+id/ivWagonImage"
+                    android:descendantFocusability="beforeDescendants"
+                    android:ems="10"
+                    android:hint="ค้นหาสินค้า"
+                    android:singleLine="true"
+                    android:textSize="@dimen/serach_text" >
+                  
+                </EditText>
+
+                <ImageView
+                    android:id="@+id/ivWagonImage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/ic_action_search" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/textv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="หมวดหมู่"
+                android:textSize="@dimen/list_topic_size" />
+
+            <ListView
+                android:id="@+id/listManuItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none" >
+
+            </ListView>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>

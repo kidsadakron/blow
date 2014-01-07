@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFAFA"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="ลงทะเบียน"
+        android:textSize="@dimen/register_topBig" />
+
+    <TextView
+        android:id="@+id/tvMainJob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="ข้อมูลของท่านคือ "
+        android:textSize="@dimen/register_top" />
+
+    <TextView
+        android:id="@+id/tvShowDetailRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text=" "
+        android:textSize="@dimen/register_detail" />
+
+    <Button
+        android:id="@+id/btEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="แก้ไขข้อมูล" />
+
+    <Button
+        android:id="@+id/okRe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ยืนยัน" />
+
+</LinearLayout>

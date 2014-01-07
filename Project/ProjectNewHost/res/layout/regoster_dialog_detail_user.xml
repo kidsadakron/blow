@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/edUser"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ชื่อสมาชิก (ตั้งแต่ 4 ตัวขึ้นไป)"
+            android:singleLine="true"
+            android:textSize="@dimen/list_manu_size" />
+
+        <TextView
+            android:id="@+id/tvMainJob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="ชื่อสมาชิกเป็น(.),(-),(_),(0-9),(a-z) และ (A-Z)"
+            android:textSize="@dimen/list_manu_size" />
+
+        <EditText
+            android:id="@+id/edPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="รหัสผ่าน (ตั้งแต่ 6 ตัวขึ้นไป)"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="@dimen/list_manu_size" />
+     
+
+        <EditText
+            android:id="@+id/edPass2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="ยืนยันรหัสผ่านอีกครั้ง"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textSize="@dimen/list_manu_size" />
+
+        <EditText
+            android:id="@+id/edIDCard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="รหัสบัตรประจําตัวประชาชน"
+            android:inputType="number"
+            android:maxLength="13"
+            android:singleLine="true"
+            android:textSize="@dimen/list_manu_size" />
+
+        <FrameLayout
+            android:id="@+id/nextToPerson"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/register" >
+
+            <TextView
+                android:id="@+id/tvShowDetailRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="ถัดไป"
+                android:textSize="@dimen/list_topic_size" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
